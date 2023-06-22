@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+
+    <title>Document</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.
+    0">
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cadastro</h1>
+        <p>Complete suas informações</p>
+        <hr>
+    </header>
+    
+    <form action="">
+        
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+           <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" autocomplete="off" required placeholder="Digite aqui seu nome">
+                
+           </div>
+           <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite aqui seu e-mail">
+           </div>
+
+           <div>
+                <label for="celular">Celular</label>
+                <input type="celular" id="celular" placeholder="Digite aqui seu número">
+           </div>
+
+        
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Quantos anos você possui?</legend>
+
+            <div>
+                <h3>Idades:</h3>
+                
+                <br>
+                
+                <input type="radio" name="radio" id="radio-item1">
+                <label for="radio-item1">9 à 13</label>
+                <br>
+                
+                <input type="radio" name="radio" id="radio-item2">
+                <label for="radio-item2">14 à 16</label>
+                <br>
+                
+                <input type="radio" name="radio" id="radio-item3">
+                <label for="radio-item3">17 à 20</label>
+                <br>
+                
+                <input type="radio" name="radio" id="radio-item4">
+                <label for="radio-item4">21 à ...</label>
+                
+
+                
+            </div>
+        </fieldset>
+
+            <fieldset>
+                <legend>Escolha um horário</legend>
+
+                <div>
+                    
+                    
+                    <label for="select-item"></label>
+                    <select name="" id="select-item">
+                        <option>Selecionar</option>
+                        <option>9h às 10h30</option>
+                        <option>11h às 12h30</option>
+                        <option>13h às 14h30</option>
+                        <option>15h ás 16h30</option>
+                        <option>17h ás 18h30</option>
+                        
+                    </select>
+                </div>
+            </fieldset>
+            
+
+        <fieldset>
+            <legend>Nível de escolaridade</legend>
+
+            
+            <div class="flex">
+
+                <input type="checkbox" id="checkbox-item1">
+                <label for="checkbox-item1">Ensino médio incompleto</label>
+            </div>
+
+            <div class="flex">
+                <input type="checkbox" id="checkbox-item1">
+                <label for="checkbox-item1">Ensino médio completo</label>
+            </div>
+
+            <div class="flex">
+                    <input type="checkbox" id="checkbox-item1">
+                    <label for="checkbox-item1">Ensino superior</label>
+            </div>
+            
+            
+                <h3>Textarea</h3>
+                
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            
+
+
+
+        </fieldset>
+
+        <div class="btn">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
+        </div>
+
+
+
+    </form>
+
+</body>
+</html>
